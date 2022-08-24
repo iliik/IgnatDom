@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    background-color: lawngreen;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.ava {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.messageBox {
+    background-color: darkgreen;
+    border-radius: 10px 10px 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.name {
+    color: blueviolet;
+}
+
+.message {
+    color: white;
+}
+
+.time {
+    color: slategrey;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.triangle {
+    border: 10px solid transparent;
+    border-right: 1px solid darkgreen;
+    border-bottom: 10px solid darkgreen;
+    position: absolute;
+    left: 80px;
+    top: 166px
+}
