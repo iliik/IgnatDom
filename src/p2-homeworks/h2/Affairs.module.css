@@ -1,3 +1,32 @@
-.someClass {
+.button {
+    margin:10px;
+    width: 60px;
+    background: green;
+    color: cornflowerblue;
 
+}
+.button:focus{
+    outline: snow solid 1px;
+}
+.button:active{
+    background: green;
+}
+.active{
+    background: black;
+}
+.affair{
+    display: flex;
+}
+.item{
+    margin: 10px;
+    width: 160px;
+}
+.high{
+    color: red;
+}
+.niddle{
+    color: green;
+}
+.low{
+    color: darkcyan;
 }
