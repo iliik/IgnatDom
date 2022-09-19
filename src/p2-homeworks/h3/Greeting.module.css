@@ -1,7 +1,43 @@
+.greeting{
+    display: flex;
+    align-items: flex-start;
+}
 .someClass {
 
 }
-
+.errorInput{
+    margin: 10px;
+    background: green;
+    color: skyblue;
+    border: 2px solid red;
+    outline: none;
+}
 .error {
-    border: 1px solid red;
+    color: red;
+    height: 20px;
+    margin-left: 10px;
+}
+.input{
+    margin: 10px;
+    background: seagreen;
+    color: black;
+}
+.count{
+    margin: 10px;
+}
+.button:disabled {
+    color: seagreen;
+}
+.button:active{
+    background:darkgreen;
+}
+.button:focus{
+    outline:  solid 1px;
+}
+.button{
+    margin: 10px;
+    width: 60px;
+    background: green;
+    color: gainsboro;
+    outline: none;
 }
