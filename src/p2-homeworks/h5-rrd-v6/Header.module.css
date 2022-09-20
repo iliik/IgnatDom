@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    right: 230px;
+}
+
+.header:hover {
+    right: 0px;
+}
+
+.b{
+    width: 25px;
+    height: 25px;
+    background:#55ff00 ;
+    border-radius: 15px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #59b300;
+    background-color:#ffffff;
+    font-weight: bold;
+}
