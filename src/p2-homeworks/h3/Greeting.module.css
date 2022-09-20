@@ -7,7 +7,7 @@
 }
 .errorInput{
     margin: 10px;
-    background: green;
+    background: #39e600;
     color: skyblue;
     border: 2px solid red;
     outline: none;
@@ -19,7 +19,7 @@
 }
 .input{
     margin: 10px;
-    background: seagreen;
+    background: #9fff80;
     color: black;
 }
 .count{
@@ -29,15 +29,16 @@
     color: seagreen;
 }
 .button:active{
-    background:darkgreen;
+    background:#00e600;
 }
 .button:focus{
     outline:  solid 1px;
 }
 .button{
+    border-radius: 15px;
     margin: 10px;
     width: 60px;
     background: green;
-    color: gainsboro;
+    color: #ffffff;
     outline: none;
 }
