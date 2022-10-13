@@ -1,23 +1,31 @@
 {
-  "name": "Dz-ignata",
+  "name": "hws2",
+  "homepage": "http://IgnatZakalinsky.github.io/hws2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iliik.github.io/Dz-ignata",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@types/uuid": "^8.3.4",
-    "gh-pages": "^4.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^6.4.0",
-    "react-scripts": "3.4.1",
-    "typescript": "~4.8.3"
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "@mui/material": "5.10.6",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "13.5.0",
+    "@types/jest": "27.5.2",
+    "@types/node": "16.11.56",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/uuid": "8.3.4",
+    "axios": "0.27.2",
+    "gh-pages": "4.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.4",
+    "react-router-dom": "6.4.1",
+    "react-scripts": "5.0.1",
+    "redux": "4.2.0",
+    "typescript": "4.7.4",
+    "uuid": "9.0.0",
+    "web-vitals": "2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,7 +36,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
