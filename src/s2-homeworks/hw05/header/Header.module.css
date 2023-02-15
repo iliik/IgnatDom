@@ -1,33 +1,31 @@
-.burgerMenuIcon {
-    display: block;
-    width: 24px;
-    height: 24px;
-    margin: 20px 0 0 70px;
-    cursor: pointer;
-}
+/*.burgerMenuIcon {*/
+/*    display: block;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    margin: 20px 0 0 70px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.header {
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    height: 60px;
-    margin: 0;
-    padding: 0;
-    background: #FFFFFF;
-    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
-}
+/*.header {*/
+/*    z-index: 1;*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    top: 0;*/
+/*    height: 60px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);*/
+/*}*/
 
-.header h1 {
-    width: 184px;
-    height: 29px;
-    margin: 17px 70px 0 auto;
-    font-family: 'Montserrat',sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-
-    color: #000000;
-}
+/*.header h1 {*/
+/*    width: 184px;*/
+/*    height: 29px;*/
+/*    margin: 17px 70px 0 auto;*/
+/*    font-family: 'Montserrat',sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 24px;*/
+/*    line-height: 29px;*/
+/*    color: #000000;*/
+/*}*/
