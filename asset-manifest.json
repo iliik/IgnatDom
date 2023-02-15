@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IgnatDom/static/css/main.ca7ee909.css",
+    "main.css": "/IgnatDom/static/css/main.1cccd9f6.css",
     "main.js": "/IgnatDom/static/js/main.a722697f.js",
     "static/js/787.aca56f79.chunk.js": "/IgnatDom/static/js/787.aca56f79.chunk.js",
     "static/media/avatar.png": "/IgnatDom/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -8,12 +8,12 @@
     "static/media/closeOutline.svg": "/IgnatDom/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "index.html": "/IgnatDom/index.html",
     "static/media/burger.svg": "/IgnatDom/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.ca7ee909.css.map": "/IgnatDom/static/css/main.ca7ee909.css.map",
+    "main.1cccd9f6.css.map": "/IgnatDom/static/css/main.1cccd9f6.css.map",
     "main.a722697f.js.map": "/IgnatDom/static/js/main.a722697f.js.map",
     "787.aca56f79.chunk.js.map": "/IgnatDom/static/js/787.aca56f79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca7ee909.css",
+    "static/css/main.1cccd9f6.css",
     "static/js/main.a722697f.js"
   ]
 }
