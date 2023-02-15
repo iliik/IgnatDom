@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/IgnatDom/static/css/main.3062ad61.css",
-    "main.js": "/IgnatDom/static/js/main.36b6fd4b.js",
+    "main.css": "/IgnatDom/static/css/main.1cccd9f6.css",
+    "main.js": "/IgnatDom/static/js/main.37650701.js",
     "static/js/787.aca56f79.chunk.js": "/IgnatDom/static/js/787.aca56f79.chunk.js",
     "static/media/avatar.png": "/IgnatDom/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/IgnatDom/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/IgnatDom/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "index.html": "/IgnatDom/index.html",
-    "main.3062ad61.css.map": "/IgnatDom/static/css/main.3062ad61.css.map",
-    "main.36b6fd4b.js.map": "/IgnatDom/static/js/main.36b6fd4b.js.map",
+    "static/media/burger.svg": "/IgnatDom/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.1cccd9f6.css.map": "/IgnatDom/static/css/main.1cccd9f6.css.map",
+    "main.37650701.js.map": "/IgnatDom/static/js/main.37650701.js.map",
     "787.aca56f79.chunk.js.map": "/IgnatDom/static/js/787.aca56f79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3062ad61.css",
-    "static/js/main.36b6fd4b.js"
+    "static/css/main.1cccd9f6.css",
+    "static/js/main.37650701.js"
   ]
 }
