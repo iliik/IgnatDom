@@ -29,6 +29,7 @@ export type MessageType = {
     message:MessageTextType
 }
 
+
 // структуру объекта не менять
 export const message0: MessageType = {
     id: 0,
