@@ -14,19 +14,19 @@ import avatar from './avatar.png'
 * */
 
 // нужно создать правильный тип вместо any
- export type MessageTextType = {
+export type MessageTextType = {
     text: string
     time: string
 }
 
- export type UserType = {
+export type UserType = {
     avatar: string
     name: string
 }
 export type MessageType = {
     id: number
     user: UserType
-    message:MessageTextType
+    message: MessageTextType
 }
 
 
@@ -57,11 +57,11 @@ export const friendMessage0: MessageType = {
 const HW1 = () => {
     return (
         <div id={'hw1'}>
-            <div className={s2.hwTitle}>Homework #1 test</div>
+            <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>
-                    <Message message={message0} />
+                    <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
 
