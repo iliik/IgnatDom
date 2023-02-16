@@ -1,7 +1,6 @@
 .burgerMenuIcon {
     height: 24px;
     width: 24px;
-
     cursor: pointer;
 }
 
@@ -14,7 +13,6 @@
     width: 100%;
     top: 0;
     padding: 0 70px;
-
     background: #fff;
     box-shadow: 0 0 40px rgba(29, 33, 38, 0.13), 0 0 2px rgba(29, 33, 38, 0.1);
 }
