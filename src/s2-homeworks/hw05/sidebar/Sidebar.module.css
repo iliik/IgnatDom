@@ -2,10 +2,12 @@
     z-index: 20;
     position: fixed;
     transition: 0.2s ease-in;
+
     height: 100vh;
     width: 317px;
     left: -317px;
     top: 0;
+
     background: #fff;
 }
 
@@ -26,6 +28,7 @@
     left: 0;
     right: 0;
     top: 0;
+
     backdrop-filter: blur(2px);
     background: rgba(0, 0, 0, 0.3);
 }
@@ -57,13 +60,13 @@
     color: #0059b2;
     text-decoration: underline;
 }
-
 .close {
     position: absolute;
     height: 24px;
     width: 24px;
     right: 24px;
     top: 16px;
+
     background-color: transparent;
     border: none;
     cursor: pointer;

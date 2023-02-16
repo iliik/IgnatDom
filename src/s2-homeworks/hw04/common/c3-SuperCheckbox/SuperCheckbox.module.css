@@ -30,7 +30,7 @@
 .checkbox:checked {
     appearance: none;
 
-    background-image: url('checked.svg');
+    background-image: url('checked.png');
     /*background: #99ff99;*/
 }
 

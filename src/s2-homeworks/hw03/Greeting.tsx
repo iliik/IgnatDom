@@ -1,15 +1,15 @@
-import React, {ChangeEvent, KeyboardEvent} from 'react'
+import React, {ChangeEvent, KeyboardEvent, FocusEvent} from 'react'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
     name: string // need to fix any
-    setNameCallback: (e: ChangeEvent<HTMLInputElement>)=>void // need to fix any
-    addUser: ()=>void // need to fix any
-    onBlur: ()=>void // need to fix any
-    onEnter: (e: KeyboardEvent<HTMLInputElement>)=>void // need to fix any
+    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any
+    addUser: () => void // need to fix any
+    onBlur: (e: FocusEvent<HTMLInputElement>) => void // need to fix any
+    onEnter: (e: KeyboardEvent<HTMLInputElement>) => void // need to fix any
     error: string // need to fix any
     totalUsers: number // need to fix any
-    lastUserName?: number // need to fix any
+    lastUserName?: string // need to fix any
 }
 
 // презентационная компонента (для верстальщика)
@@ -25,8 +25,8 @@ const Greeting: React.FC<GreetingPropsType> = (
         lastUserName,
     } // деструктуризация пропсов
 ) => {
-    const inputClass = error ? s.errorInput : s.input // need to fix with (?:)
-
+    const inputClass = error ? `${s.errorInput} ${s.input}` : s.input; // need to fix with (?:)
+    const errorClass = error ? s.error : s.hiddenDiv
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
             <div className={s.text}>
@@ -46,7 +46,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
-                    <div id={'hw3-error'} className={s.error}>
+                    <div id={'hw3-error'} className={s.errorClass}>
                         {error}
                     </div>
                 </div>
