@@ -7,6 +7,7 @@ import HW4 from '../../hw04/HW4'
 function PreJunior() {
     return (
         <div id={'hw5-page-pre-junior'}>
+            <h1>ho</h1>
             {/*pre junior page*/}
             <HW1 />
             <HW2 />
