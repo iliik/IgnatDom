@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/IgnatDom/static/css/main.40b22f17.css",
-    "main.js": "/IgnatDom/static/js/main.6af5fd90.js",
+    "main.css": "/IgnatDom/static/css/main.c2898a94.css",
+    "main.js": "/IgnatDom/static/js/main.52c82a76.js",
     "static/js/787.aca56f79.chunk.js": "/IgnatDom/static/js/787.aca56f79.chunk.js",
     "static/media/avatar.png": "/IgnatDom/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/200.svg": "/IgnatDom/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
+    "static/media/error.svg": "/IgnatDom/static/media/error.5a3135f381b00b53044eff200e725391.svg",
+    "static/media/500.svg": "/IgnatDom/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
+    "static/media/400.svg": "/IgnatDom/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/IgnatDom/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/IgnatDom/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/IgnatDom/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "index.html": "/IgnatDom/index.html",
     "static/media/burger.svg": "/IgnatDom/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.40b22f17.css.map": "/IgnatDom/static/css/main.40b22f17.css.map",
-    "main.6af5fd90.js.map": "/IgnatDom/static/js/main.6af5fd90.js.map",
+    "main.c2898a94.css.map": "/IgnatDom/static/css/main.c2898a94.css.map",
+    "main.52c82a76.js.map": "/IgnatDom/static/js/main.52c82a76.js.map",
     "787.aca56f79.chunk.js.map": "/IgnatDom/static/js/787.aca56f79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b22f17.css",
-    "static/js/main.6af5fd90.js"
+    "static/css/main.c2898a94.css",
+    "static/js/main.52c82a76.js"
   ]
 }
